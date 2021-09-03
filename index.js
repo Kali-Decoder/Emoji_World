@@ -205,7 +205,7 @@ btn.forEach((ele)=>{
 
              array.forEach((item)=>{
            var div= `
-           <div class="col-lg-3 col-12 col-md-3 mt-3 col-sm-6 col-xs-6 mx-auto ">
+           <div class="col-lg-3 col-6 col-md-3 mt-3 col-sm-6 col-xs-6 mx-auto ">
             <div class="box">
         <div class="emoji-box">
             ${item.emoji}
