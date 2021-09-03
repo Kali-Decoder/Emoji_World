@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+body{
+    background-color:seashell;
+}
+.box
+{
+    width: 10rem;
+    height: 10rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    border-radius:10px ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+}
+.emoji-box
+{
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 68px;
+
+}
+button
+{
+    padding: 5px 13px !important;
+    border-radius: 10px;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-family: 'Hina Mincho', serif;
+}
+.navbar
+{
+    background-color:gold !important;
+    position: fixed !important;
+    top: 0%;
+    overflow: hidden !important;
+    width: 100% !important;
+    z-index: 2;
+}
+.box1
+{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px 20px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
